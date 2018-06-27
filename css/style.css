@@ -18,8 +18,8 @@ div{
 /* .container{
 
 } */
-.preview_baku{
-  background:url(images/baku.jpg);
+.baku{
+  background:url("baku.jpg");
   background-repeat: no-repeat;
   max-width: 100%;
   height:auto;
@@ -30,7 +30,14 @@ div{
   margin:0px;
   max-width: 100%;
   height: auto;
-  background:url(/Users/akiva/bloc/css-exercise-four/images/baku.jpg);
+  /* background:url(/Users/akiva/bloc/css-exercise-four/images/baku.jpg); */
+
+}
+@media screen and (min-width: 575px) {
+  div {
+    margin:1%;
+    width: 48%;
+  }
 }
 /* TEXT */
 h1{
