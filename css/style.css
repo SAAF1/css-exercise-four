@@ -11,7 +11,7 @@ body {
 
 }
 div{
-  flot:left;
+  float:left;
   /* background-image:image("baku.jpg"); */
   /* margin:100%; */
 }
@@ -19,7 +19,7 @@ div{
 
 } */
 .baku{
-  background:url("baku.jpg");
+  background-image:url("images/baku.jpg");
   background-repeat: no-repeat;
   max-width: 100%;
   height:auto;
