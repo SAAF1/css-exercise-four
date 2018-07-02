@@ -2,12 +2,12 @@
   box-sizing:border=box;
 }
 .container {
-  float:left;
+  /* float:left; */
   padding: 20px;
 }
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 16px;
 
 }
 div{
@@ -19,13 +19,39 @@ div{
 
 } */
 .baku{
-  background-image:url("..images/baku.jpg");
-  background-repeat: no-repeat;
-  max-width: 100%;
-  height:auto;
+  background-image:url("../images/baku.jpg");
+  /* background-size:cover;
+  background-repeat: no-repeat; */
+  /* width: 100px; */
+  /* height:100%; */
 }
+.london{
+  background-image:url("../images/london.png");
+  /* background-size:cover;
+  background-repeat: no-repeat;
+  /* width: 100px; */
+  /* height:100%; */
+}
+.madrid{
+  background-image:url("../images/madrid.jpg");
+  /* background-size:cover;
+  background-repeat: no-repeat; */
+  /* width: auto; */
+  /* height:100%; */
+}
+.rome{
+  background-image:url("../images/rome.jpg");
+
+}
+
 .preview {
-height: 200px;
+height:300px;
+float: left;
+width: 100%;
+background-size:cover;
+background-repeat: no-repeat;
+margin-bottom: 20px;
+
 }
 
 /* Photo  */
@@ -33,17 +59,24 @@ height: 200px;
   margin:0px;
   max-width: 100%;
   height: auto;
+
   /* background:url(/Users/akiva/bloc/css-exercise-four/images/baku.jpg); */
 
 }
 @media screen and (min-width: 575px) {
-  div {
+  .preview {
     margin:1%;
     width: 48%;
   }
 }
+@media screen and (min-width: 1000px) {
+  .preview {
+    margin:1%;
+    width: 23%;
+  }
+}
 /* TEXT */
-h1{
+.container > h1{
   font-family: sans-serif;
   font-size: 100%;
   font-weight: lighter;
@@ -52,3 +85,12 @@ h1{
   text-align: center;
   padding-bottom: 20px;
 }
+.preview h1{
+  font-family: sans-serif;
+  font-size: 120%;
+  font-weight: lighter;
+  margin:auto;
+  padding-left: 35px;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 45px;
